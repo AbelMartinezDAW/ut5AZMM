@@ -1,0 +1,65 @@
+                                                            Enunciado.
+                                                            
+                Ejercicio1 (Selección y modificación de elementos).
+
+Descarga y descomprime la web Tarea_UT5_1
+
+Completa el archivo ejercicio1.js para que realice los siguientes cambios en el contenido.
+
+
+
+1. Modifica el contenido del título, poniéndole tu nombre.
+
+2. Modifica la imagen que muestra el segundo artículo artículo
+
+3. Oculta el último articulo.
+
+4. Recorre los artículos y añade al inicio de la cabecera el número de noticia (1- Hospitalizado...)
+
+5. Añade la clase cabecera (ya esta declarada en los estilos), al primer div de cada artículo.
+
+6. Busca en todos los artículos donde aparece la cadena "Servicio Murciano de Salud", y sustitúyela por "S.M.S" (¿método replace de cadenas?).
+
+
+
+No es necesario modificar el archivo .html
+
+
+                Ejercicio 2 (Creación de elementos)
+
+Descarga y descomprime la web Tarea_UT5_2
+
+Completa el archivo ejercicio2.js para crear los siguientes elementos en la web:
+
+
+
+1. Un título con tu nombre.
+
+2. Un elemento contenedor, que contendrá los artículos de la tienda.
+
+3. Cada artículo contiene un nombre, una descripción, un precio y una imagen. Estos datos los leemos 
+
+del array datos, que tenemos disponible en el archivo datos.js y ya se encuentra cargado en la web
+
+4. Añade las clases necesarias a los elementos y completa el archivo estilos.css para conseguir un aspecto similar al del enunciado.
+
+NOTA: El ejemplo contiene 8 artículos, pero el código generado debería funcionar con cualquier número de artículos.
+
+
+
+No es necesario editar el archivo .html
+
+
+Ejercicio 3 (Modificación del DOM y Eventos)
+
+Crea utilizando javascript y métodos del DOM, dos campos de entrada de texto y dos botones con la siguiente funcionalidad:
+
+1. Se escribe un mensaje de error la página (no un alert), si pulsan añadir y eliminar y no se han rellenado ambos campos.
+
+2. Si pulsan añadir se crea una nueva línea en el listado en forma de tabla.
+
+3. Si pulsan añadir y la persona ya está en la tabla, escribimos un mensaje de error en la página.
+
+4. Si pulsan eliminar, eliminamos la persona de la tabla, o avisamos en caso de que no exista.
+
+5. Si pulsan eliminar y la persona no existe en la tabla, escribimos un mensaje de error.
