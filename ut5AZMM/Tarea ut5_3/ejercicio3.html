@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de personas Ejercicio 3 DWEC05</title>
+</head>
+<body>
+
+    <!--Insertamos los campos para que el usuario escriba:-->
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellidos" placeholder="Apellidos">
+
+    <!--Insertamos los dos botones de añadir y eliminar:-->
+    <button id="anadir">Añadir</button>
+    <button id="eliminar">Eliminar</button>
+
+    <!--Aquí es donde aparecerá el error cuando deba aparecer:-->
+    <p id="error"></p>
+
+    <!--Insertamos la tabla donde se muestran las personas válidas guardadas:-->
+    <table border="1" style="margin-top: 20px;">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+        </tr>
+        <tbody id="lista">
+            <!--Aquí se añadirán las filas:-->
+        </tbody>
+    </table>
+
+    <!--Enlazamos el archivo javascript:-->
+    <script src="ejercicio3.js"></script>
+
+</body>
+</html>
